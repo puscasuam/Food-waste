@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Vegetarian"
+  },
+  {
+    "Id": 2,
+    "Name": "Vegan"
+  },
+  {
+    "Id": 3,
+    "Name": "Carnivore"
+  },
+  {
+    "Id": 4,
+    "Name": "Gluten free"
+  },
+  {
+    "Id": 5,
+    "Name": "sugar free"
+  }
+ ]

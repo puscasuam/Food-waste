@@ -1,0 +1,62 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Steak"
+  },
+  {
+    "Id": 2,
+    "Name": "Seafood & Fish"
+  },
+  {
+    "Id": 3,
+    "Name": "Hamburgher"
+  },
+  {
+    "Id": 4,
+    "Name": "Bar & Grill"
+  },
+  {
+    "Id": 5,
+    "Name": "Sandwiches & Soups"
+  },
+  {
+    "Id": 6,
+    "Name": "American"
+  },
+  {
+    "Id": 7,
+    "Name": "Asian"
+  },
+  {
+    "Id": 8,
+    "Name": "Bbq"
+  },
+  {
+    "Id": 9,
+    "Name": "Mexican"
+  },
+  {
+    "Id": 10,
+    "Name": "Chichen"
+  },
+  {
+    "Id": 11,
+    "Name": "Pizza & Pasta"
+  },
+  {
+    "Id": 12,
+    "Name": "Bakeries, donuts, snaks & coffee"
+  },
+  {
+    "Id": 13,
+    "Name": "Drink"
+  },
+  {
+    "Id": 14,
+    "Name": "Vegetables"
+  },
+  {
+    "Id": 15,
+    "Name": "Fruits"
+  }
+]

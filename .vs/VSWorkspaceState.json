@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\API",
     "\\Core",
-    "\\Infrastructure"
+    "\\Core\\Entities",
+    "\\Core\\Interfaces",
+    "\\Infrastructure",
+    "\\Infrastructure\\Data"
   ],
-  "SelectedNode": "\\Core\\Core.csproj",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
