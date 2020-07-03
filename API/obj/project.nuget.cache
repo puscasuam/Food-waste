@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2bc6JXZB9YkjpZNAMW4Oa7q7vImROWvtkWUXrPM/ktJY5xm24pDvsED1mZi6v0kJrV3vDDK8iZSDsWVQqg/rfA==",
+  "dgSpecHash": "AVv5GldU47QtgGyBnvKaG+JAJNiIqbTaXxobI4lafbdnH24Em7CyvOSR+0DXkDzGE8TvfkG1BaRvxOxAnWQ3YQ==",
   "success": true,
   "projectFilePath": "D:\\Facultate\\DOT NET\\Proiect\\FoodWaste\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ana\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\Ana\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
