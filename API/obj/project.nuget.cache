@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AVv5GldU47QtgGyBnvKaG+JAJNiIqbTaXxobI4lafbdnH24Em7CyvOSR+0DXkDzGE8TvfkG1BaRvxOxAnWQ3YQ==",
+  "dgSpecHash": "vtrAB0jpSLs2PYwlodkhtVQCzC3h4LYNKgh+Oc4X3uUAPjWB3oidLcIbM7xPcPPU9GiNNcupbKwKckqCK/jjkA==",
   "success": true,
   "projectFilePath": "D:\\Facultate\\DOT NET\\Proiect\\FoodWaste\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ana\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.3\\microsoft.visualstudio.web.codegeneration.3.1.3.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.3\\microsoft.visualstudio.web.codegeneration.contracts.3.1.3.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.3\\microsoft.visualstudio.web.codegeneration.core.3.1.3.nupkg.sha512",
@@ -82,6 +83,9 @@
     "C:\\Users\\Ana\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.2\\sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512",
+    "C:\\Users\\Ana\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.1\\swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
+    "C:\\Users\\Ana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.1\\swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
+    "C:\\Users\\Ana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.1\\swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\Ana\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
