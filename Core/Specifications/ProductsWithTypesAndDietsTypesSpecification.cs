@@ -14,19 +14,20 @@ namespace Core.Specifications
             AddInclude(x => x.ProductType);
         }
 
-        public ProductsWithTypesAndDietsTypesSpecification(string sort, int? dietId, int? typeId) 
+        public ProductsWithTypesAndDietsTypesSpecification(ProductSpecParams productParams) 
             : base ( x => 
-                (!dietId.HasValue || x.DietTypeId == dietId) &&
-                (!typeId.HasValue || x.ProductTypeId == typeId)
+                (!productParams.DietId.HasValue || x.DietTypeId == productParams.DietId) &&
+                (!productParams.TypeId.HasValue || x.ProductTypeId == productParams.TypeId)
             )
         {
             AddInclude(x => x.DietType);
             AddInclude(x => x.ProductType);
             AddOrderBy(x => x.Name);
+            ApplyPaging(productParams.PageSize * (productParams.PageIndex - 1), productParams.PageSize);
 
-            if (!string.IsNullOrEmpty(sort))
+            if (!string.IsNullOrEmpty(productParams.Sort))
             {
-                switch (sort)
+                switch (productParams.Sort)
                 {
                     case "priceAsc":
                         AddOrderBy(p => p.Price);
