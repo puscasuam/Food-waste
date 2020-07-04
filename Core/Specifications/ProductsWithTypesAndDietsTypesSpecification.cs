@@ -14,7 +14,11 @@ namespace Core.Specifications
             AddInclude(x => x.ProductType);
         }
 
-        public ProductsWithTypesAndDietsTypesSpecification(string sort)
+        public ProductsWithTypesAndDietsTypesSpecification(string sort, int? dietId, int? typeId) 
+            : base ( x => 
+                (!dietId.HasValue || x.DietTypeId == dietId) &&
+                (!typeId.HasValue || x.ProductTypeId == typeId)
+            )
         {
             AddInclude(x => x.DietType);
             AddInclude(x => x.ProductType);
