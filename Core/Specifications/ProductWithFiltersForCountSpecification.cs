@@ -1,7 +1,4 @@
 ﻿using Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Core.Specifications
 {
@@ -9,6 +6,7 @@ namespace Core.Specifications
     {
         public ProductWithFiltersForCountSpecification(ProductSpecParams productParams)
             : base(x =>
+              (string.IsNullOrEmpty(productParams.Search) || x.Name.ToLower().Contains(productParams.Search)) &&
               (!productParams.DietId.HasValue || x.DietTypeId == productParams.DietId) &&
               (!productParams.TypeId.HasValue || x.ProductTypeId == productParams.TypeId)
             )
