@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from './core/core.module';
 import { AngularMaterialModule } from './shared/angular-material-module';
+import { ShopModule } from './shop/shop.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AngularMaterialModule } from './shared/angular-material-module';
     BrowserAnimationsModule,
     AngularMaterialModule,
     HttpClientModule,
-    CoreModule
+    CoreModule,
+    ShopModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
