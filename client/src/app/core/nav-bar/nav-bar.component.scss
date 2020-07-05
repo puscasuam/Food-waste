@@ -1,0 +1,29 @@
+.call_text {
+  font-size: 14px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  vertical-align: middle;
+  }
+
+.top_call {
+  min-height: 32px;
+  text-align: center;
+  background: #54ae28;
+  color: #fff;
+  border: 1px solid #50a925;
+  position: relative;
+}
+
+.cart-no {
+  position: absolute;
+  min-height: 15px;
+  min-width: 15px;
+  border-radius: 50%;
+  font-size: 0.7em;
+  background: #54ae28;
+  color: #fff;
+  text-align: center;
+  top: -10px;
+  right: -5px;
+}
+  
