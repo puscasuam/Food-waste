@@ -3,8 +3,8 @@
     <div class="row d-flex">
       <div class="col-9">
         <div class="search_box">
-          <button type="submit"><i class="material-icons">search</i></button>
-          <input class="filter-name form-control" type="text" placeholder="What do you want to eat?">
+          <button (click)="onSearch()"><i class="material-icons">search</i></button>
+          <input (keyup.enter)="onSearch()" class="filter-name form-control"  #search type="text" placeholder="What do you want to eat?"  >
         </div>
       </div>
       <div class="col-3">
