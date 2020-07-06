@@ -1,50 +1,70 @@
 ﻿[
   {
-    "Name": "Angular Speedster Board 2000",
+    "Name": "Lasagna",
     "Price": 200,
     "NetWeigh": 100,
     "Valability": 3,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "PictureUrl": "images/products/prod1.png",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "ProductTypeId": 1,
     "DietTypeId": 1
   },
   {
-    "Name": "Angular Speedster Board 2020",
+    "Name": "Burgher",
     "Price": 400,
     "NetWeigh": 100,
     "Valability": 5,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "PictureUrl": "images/products/prod2.png",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "ProductTypeId": 2,
     "DietTypeId": 2
   },
   {
-    "Name": "Prod 3",
+    "Name": "Sarmale",
     "Price": 400,
     "NetWeigh": 100,
     "Valability": 5,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "PictureUrl": "images/products/prod3.png",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "ProductTypeId": 5,
     "DietTypeId": 2
   },
   {
-    "Name": "Prod 4",
+    "Name": "Sushi",
     "Price": 200,
     "NetWeigh": 50,
     "Valability": 7,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "PictureUrl": "images/products/prod4.png",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "ProductTypeId": 15,
     "DietTypeId": 1
   },
   {
-    "Name": "prod 5",
+    "Name": "Pizza",
     "Price": 200,
     "NetWeigh": 20,
     "Valability": 5,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "PictureUrl": "images/products/prod5.png",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "ProductTypeId": 12,
+    "DietTypeId": 4
+  },
+  {
+    "Name": "Kfc",
+    "Price": 200,
+    "NetWeigh": 20,
+    "Valability": 5,
+    "PictureUrl": "images/products/prod6.png",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "ProductTypeId": 12,
+    "DietTypeId": 4
+  },
+  {
+    "Name": "Salade",
+    "Price": 200,
+    "NetWeigh": 20,
+    "Valability": 5,
+    "PictureUrl": "images/products/prod7.png",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "ProductTypeId": 12,
     "DietTypeId": 4

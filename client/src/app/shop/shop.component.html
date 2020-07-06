@@ -21,96 +21,32 @@
 
 
 <div class="product_type_filters my-3">
-  <div class="row" style="width: 100%">
-    <div class="col-1 product_type_item">
-      <span class="material-icons">
-        arrow_left
-      </span>
-    </div>
-    <div class="col-1 product_type_item">
-      Steak
-      <img src="assets/img/steak.png" style="max-height: 70px" alt="steak">
-    </div>
-    <div class="col-1 product_type_item">
-      Fish
-      <img src="assets/img/fish.png" style="max-height: 70px" alt="fish">
-    </div>
-    <div class="col-1 product_type_item">
-      Hamburgher
-      <img src="assets/img/hamburgher.png" style="max-height: 70px" alt="hamburgher">
-    </div>
-    <div class="col-1 product_type_item">
-      Grill
-      <img src="assets/img/steak.png" style="max-height: 70px" alt="grill">
-    </div>
-    <div class="col-1 product_type_item">
-      Sandwich
-      <img src="assets/img/sandwich.png" style="max-height: 70px" alt="sandwtch">
-    </div>
-    <div class="col-1 product_type_item">
-      American
-      <img src="assets/img/american.png" style="max-height: 70px" alt="american">
-    </div>
-    <div class="col-1 product_type_item">
-      Asian
-      <img src="assets/img/asian.png" style="max-height: 70px" alt="asian">
-    </div>
-    <div class="col-1 product_type_item">
-      BBq
-      <img src="assets/img/steak.png" style="max-height: 70px" alt="bbq">
-    </div>
-    <div class="col-1 product_type_item">
-      Mexican
-      <img src="assets/img/mexican.png" style="max-height: 70px" alt="mexican">
-    </div>
-    <div class="col-1 product_type_item">
-      Chicken
-      <img src="assets/img/fish.png" style="max-height: 70px" alt="fish">
-    </div>
-    <div class="col-1 product_type_item">
-      Pizza & Pasta
-      <img src="assets/img/pizza.png" style="max-height: 70px" alt="pizza">
-    </div>
-    <div class="col-1 product_type_item">
-      Bakeries
-      <img src="assets/img/bakeries.png" style="max-height: 70px" alt="bakeries">
-    </div>
-    <div class="col-1 product_type_item">
-      Drinks
-      <img src="assets/img/american.png" style="max-height: 70px" alt="drinks">
-    </div>
-    <div class="col-1 product_type_item">
-      Vegetables
-      <img src="assets/img/vegan.png" style="max-height: 70px" alt="vegan">
-    </div>
-    <div class="col-1 product_type_item">
-      Fruits
-      <img src="assets/img/vegan.png" style="max-height: 70px" alt="fruits">
-    </div>
-    <div class="col-1 product_type_item">
-      <span class="material-icons">
-        arrow_right
-      </span>
-    </div>
-
+  <div class="row">
+    <li class="col-1 product_type_item"
+         *ngFor="let type of types"
+         [class.active]="type.id === this.typeIdSelected"
+         [value]="type.id"
+         (click)="onTypeSelected(type.id)"
+    >
+      {{type.name}}
+      <img src="assets/img/{{type.picturePath}}" style="max-height: 70px" alt="{{type.name}}">
+    </li>
   </div>
 </div>
 
 
+<div class="container">
 
-  <div class="container">
+  <header>
+    <span>
+      Showing <strong>10</strong> of <strong>16</strong> Results
+    </span>
+  </header>
 
-    <header>
-      <span>
-        Showing <strong>10</strong> of <strong>16</strong> Results
-      </span>
-    </header>
-
-    <div class="row">
-      <div class="col-4 mb-4" *ngFor ="let item of products">
-        <app-product-item [product] = "item"></app-product-item>
-
-      </div>
+  <div class="row">
+    <div class="col-4 mb-4" *ngFor="let item of products">
+      <app-product-item [product]="item"></app-product-item>
     </div>
-
   </div>
+
+</div>

@@ -48,14 +48,14 @@ namespace Infrastructure.Data.Migrations
                         .HasColumnType("TEXT")
                         .HasMaxLength(100);
 
-                    b.Property<decimal>("NetWeigh")
+                    b.Property<double>("NetWeigh")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("PictureUrl")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("Price")
+                    b.Property<double>("Price")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProductTypeId")
@@ -80,6 +80,9 @@ namespace Infrastructure.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PicturePath")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");

@@ -25,7 +25,8 @@ namespace Infrastructure.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: true),
+                    PicturePath = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -39,8 +40,8 @@ namespace Infrastructure.Data.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(maxLength: 100, nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    NetWeigh = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Price = table.Column<double>(type: "decimal(18,2)", nullable: false),
+                    NetWeigh = table.Column<double>(type: "decimal(18,2)", nullable: false),
                     Valability = table.Column<int>(nullable: false),
                     PictureUrl = table.Column<string>(nullable: false),
                     Description = table.Column<string>(maxLength: 300, nullable: false),

@@ -1,62 +1,77 @@
 ﻿[
   {
     "Id": 1,
-    "Name": "Steak"
+    "Name": "Steak",
+    "PicturePath": "steak.png"
   },
   {
     "Id": 2,
-    "Name": "Seafood & Fish"
+    "Name": "Seafood & Fish",
+    "PicturePath": "seafood_fish.png"
   },
   {
     "Id": 3,
-    "Name": "Hamburgher"
+    "Name": "Hamburgher",
+    "PicturePath": "hamburgher.png"
   },
   {
     "Id": 4,
-    "Name": "Salade"
+    "Name": "Salade",
+    "PicturePath": "salade.png"
   },
   {
     "Id": 5,
-    "Name": "Sandwiches & Soups"
+    "Name": "Sandwich",
+    "PicturePath": "sandwich.png"
   },
   {
     "Id": 6,
-    "Name": "American"
+    "Name": "Fast Food",
+    "PicturePath": "american.png"
   },
   {
     "Id": 7,
-    "Name": "Asian"
+    "Name": "Asian",
+    "PicturePath": "asian.png"
   },
   {
     "Id": 8,
-    "Name": "Desert"
+    "Name": "Desert",
+    "PicturePath": "desert.png"
   },
   {
     "Id": 9,
-    "Name": "Mexican"
+    "Name": "Mexican",
+    "PicturePath": "mexican.png"
   },
   {
     "Id": 10,
-    "Name": "Chichen"
+    "Name": "Soup",
+    "PicturePath": "soup.png"
   },
   {
     "Id": 11,
-    "Name": "Pizza & Pasta"
+    "Name": "Pizza & Pasta",
+    "PicturePath": "pizza.png"
   },
   {
     "Id": 12,
-    "Name": "Bakeries, donuts, snaks & coffee"
+    "Name": "Bakeries, donuts, snaks & coffee",
+    "PicturePath": "bakeries.png"
   },
   {
     "Id": 13,
-    "Name": "Drink"
+    "Name": "Drink",
+    "PicturePath": "american.png"
   },
   {
     "Id": 14,
-    "Name": "Vegetables"
+    "Name": "Vegetables",
+    "PicturePath": "vegan.png"
   },
   {
     "Id": 15,
-    "Name": "Fruits"
+    "Name": "Fruits",
+    "PicturePath": "vegan.png"
   }
 ]

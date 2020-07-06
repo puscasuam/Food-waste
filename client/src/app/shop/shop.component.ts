@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { IProduct } from '../shared/models/product';
 import { ShopService } from './shop.service';
+import { IDiet } from '../shared/models/diet';
+import { IType } from '../shared/models/productType';
 
 @Component({
   selector: 'app-shop',
@@ -9,15 +11,53 @@ import { ShopService } from './shop.service';
 })
 export class ShopComponent implements OnInit {
   products: IProduct[];
+  diets: IDiet[];
+  types: IType[];
+  dietIdSelected: number;
+  typeIdSelected: number;
 
   constructor(private shopService: ShopService) { }
 
   ngOnInit() {
-    this.shopService.getProducts().subscribe(response => {
+    this.getProducts();
+    this.getDiets();
+    this.getTypes();
+
+
+    console.log(this.getTypes());
+  }
+
+  getProducts() {
+    this.shopService.getProducts(this.dietIdSelected, this.typeIdSelected).subscribe(response => {
       this.products = response.data;
     }, error => {
       console.log(error);
     });
   }
 
+  getDiets() {
+    this.shopService.getDiets().subscribe(response => {
+      this.diets = response;
+    }, error => {
+      console.log(error);
+    });
+  }
+
+  getTypes() {
+    this.shopService.getTypes().subscribe(response => {
+      this.types = response;
+    }, error => {
+      console.log(error);
+    });
+  }
+
+  onDietSelected(dietId: number) {
+    this.dietIdSelected = dietId;
+    this.getProducts();
+  }
+
+  onTypeSelected(typeId: number) {
+    this.typeIdSelected = typeId;
+    this.getProducts();
+  }
 }
