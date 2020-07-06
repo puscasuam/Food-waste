@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\API",
-    "\\Core",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\app",
     "\\Core\\Entities",
     "\\Core\\Interfaces",
-    "\\Infrastructure",
     "\\Infrastructure\\Data"
   ],
-  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
