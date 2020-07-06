@@ -8,11 +8,13 @@
         </div>
       </div>
       <div class="col-3">
-        <select class="sort_box" style="opacity: 0.7">
-          <option>Sort your products</option>
-          <option>Alphabetical</option>
-          <option>Price: Low to High</option>
-          <option>Price: High to Low</option>
+        <select class="custom-select" style="opacity: 0.7" (change)="onSortSelected($event.target.value)">
+          <option *ngFor="let sort of sortOptions"
+                  [value]="sort.value"
+          >
+            {{sort.name}}
+          </option>
+
         </select>
       </div>
     </div>
@@ -21,7 +23,7 @@
 
 
 <div class="product_type_filters my-3">
-  <div class="row">
+  <ul class="row">
     <li class="col-1 product_type_item"
          *ngFor="let type of types"
          [class.active]="type.id === this.typeIdSelected"
@@ -31,7 +33,7 @@
       {{type.name}}
       <img src="assets/img/{{type.picturePath}}" style="max-height: 70px" alt="{{type.name}}">
     </li>
-  </div>
+  </ul>
 </div>
 
 
