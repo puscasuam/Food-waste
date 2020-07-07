@@ -47,6 +47,22 @@ namespace API.Controllers
             return Ok(new Pagination<ProductToReturnDto>(productParams.PageIndex, productParams.PageSize, totalItems, data));
         }
 
+        //[HttpPost]
+        //public void PostProduct(Product product)
+        //{
+        //     _productRepo.PostAsync(product);
+
+        //    //return CreatedAtAction("GetProducts", new { id = product.Id }, product);
+        //}
+
+
+        [HttpDelete("{id}")]
+        //public void DeleteProduct(int id)
+        //{
+        //    _productRepo.DeleteAsync(id);
+
+        //    //return CreatedAtAction("GetProducts", new { id = product.Id }, product);
+        //}
 
         [HttpGet("{id}")]
 

@@ -18,6 +18,17 @@ namespace Infrastructure.Data
 			_context = context;
 		}
 
+		//public void DeleteAsync(int id)
+		//{
+		//	var item = _context.Products
+		//			.Include(p => p.ProductType)
+		//		.Include(P => P.DietType)
+		//		.FirstOrDefaultAsync(p => p.Id == id);
+
+		//	_context.Remove(item);
+		//	_context.SaveChangesAsync();
+		//}
+
 		public async Task<IReadOnlyList<DietType>> GetDietTypeAsync()
 		{
 			return await _context.DietTypes.ToListAsync();
@@ -43,5 +54,11 @@ namespace Infrastructure.Data
 		{
 			return await _context.ProductTypes.ToListAsync();
 		}
+
+		//public void PostAsync(Product product)
+		//{
+		//	_context.Add<Product>(product);
+		//	_context.SaveChanges();
+		//}
 	}
 }

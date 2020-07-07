@@ -4,12 +4,14 @@
 
 <div class="d-flex flex-md-row justify-content-between align-items-center px-md-4 mb-3 bg-white border-bottom shadow-sm">
   <div class="flex-column">
-    <img src="assets/img/logo3.png" style="max-height: 70px" alt="logo">
+    <img src="assets/img/logo3.png" style="max-height: 70px" alt="logo" [routerLink] ="['/']">
   </div>
   <div class="flex-column">
     <h5 class="my-0 mr-md-auto font-weight-normal">too good to waste</h5>
   </div>
   <div class="flex-column">
+    <a class="btn btn-outline-light" mr-2 [routerLink] ="['/']"> Home</a>
+    <a class="btn btn-outline-light" mr-2 [routerLink] ="['/shop']"> Shop</a>
     <a class="btn btn-outline-light" mr-2> Login</a>
     <a class="btn btn-outline-light" mr-2> Sign up</a>
     <a class="position-relative">
