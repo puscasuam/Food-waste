@@ -8,6 +8,7 @@ import { CoreModule } from './core/core.module';
 import { AngularMaterialModule } from './shared/angular-material-module';
 import { ShopModule } from './shop/shop.module';
 import { HomeModule } from './home/home.module';
+import { BasketModule } from './basket/basket.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomeModule } from './home/home.module';
     CoreModule,
     ShopModule,
     HomeModule,
+    BasketModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

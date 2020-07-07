@@ -14,9 +14,9 @@
     <a class="btn btn-outline-light" mr-2 [routerLink] ="['/shop']"> Shop</a>
     <a class="btn btn-outline-light" mr-2> Login</a>
     <a class="btn btn-outline-light" mr-2> Sign up</a>
-    <a class="position-relative">
+    <a routerLink="/basket" class="position-relative">
       <i class="material-icons">shopping_cart</i>
-      <div class="cart-no">3</div>
+      <div *ngIf="(basket$ | async) as basket" class="cart-no">{{basket.items.length}}</div>
     </a>
   </div>
 </div>
